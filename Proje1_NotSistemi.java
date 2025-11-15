@@ -5,7 +5,8 @@
  * Tarih: [15.11.2025]
  */
 import java.util.*;
-public class Main { public static void main(String[] args) {
+public class Main { 
+    public static void main(String[] args) {
     Scanner in = new Scanner(System.in); 
     int vizeNot, finalNot, odevNot;
     System.out.println("Vize notunu giriniz");
@@ -60,4 +61,5 @@ public class Main { public static void main(String[] args) {
                      return(ort>=40 && ort<50)? true: false;
                  }
 }
+
 
